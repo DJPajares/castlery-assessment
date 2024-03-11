@@ -7,6 +7,14 @@ This contains the take home assignment for a System Analyst role for Castlery
 
 - Download python from here: https://www.python.org/downloads/
     
+## Assumptions
+
+- `.csv` data order is consistent where one `Order Number` is grouped together and `Header` is always on top, followed by `Line`
+- `.json` files are generated inside the `orders` folder
+## Run from Replit
+
+Open the project from here: https://replit.com/@djpajares/castlery-assessment
+
 ## Run Locally
 
 Clone the project
@@ -26,8 +34,3 @@ Run the program
 ```bash
   python3 main.py
 ```
-
-## Assumptions
-
-- `.csv` data order is consistent where one `Order Number` is grouped together and `Header` is always on top, followed by `Line`
-- `.json` files are generated inside the `orders` folder
